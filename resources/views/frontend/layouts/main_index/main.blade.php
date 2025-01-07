@@ -1,0 +1,5 @@
+@includeIf('frontend.layouts.header.header_link')
+@includeIf('frontend.layouts.header.header')
+@yield('main-container')
+@includeIf('frontend.layouts.footer.footer')
+@includeIf('frontend.layouts.footer.footer_link')
